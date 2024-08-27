@@ -1,0 +1,64 @@
+************************************
+Maven 
+
+
+https://maven.apache.org/download.cgi
+
+apache-maven-3.9.9-bin.zip
+
+how to configure maven ?
+
+go to environment variables 
+
+
+MAVEN_HOME
+
+D:\010LiveTech\jars\apache-maven-3.9.9-bin\apache-maven-3.9.9
+
+M2_HOME
+
+D:\010LiveTech\jars\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin
+
+path 
+
+D:\010LiveTech\jars\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin
+
+C:\Users\Riyaz>mvn -version
+Apache Maven 3.9.9 (8e8579a9e76f7d015ee5ec7bfcdc97d260186937)
+Maven home: D:\010LiveTech\jars\apache-maven-3.9.9-bin\apache-maven-3.9.9
+Java version: 11.0.24, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-11
+Default locale: en_IN, platform encoding: Cp1252
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+
+
+For developers :
+
+src/main/java  ==> java stuff developed  by developers
+src/main/resources ==> non-java ( text files , json file , html etc..)
+src/test/java	==> unit cases written by developers
+src/test/resources ==> test data for unit testing 
+
+For Testers :
+
+src/main/java  ==> java stuff regarding framework 
+src/main/resources ==> non-java ( text files , json file , html etc..)
+src/test/java	==> Test Scripts written by testers
+src/test/resources ==> test data for testing 
+
+pom.xml here POM project object model 
+
+https://mvnrepository.com/
+
+**************************************
+File Handdling in Java 
+***************************************
+File (java.io)
+
+File(String)
+
+createNewFile():boolean 
+
+FileInputStream
+
+
+
