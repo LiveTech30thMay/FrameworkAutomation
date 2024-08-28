@@ -61,4 +61,56 @@ createNewFile():boolean
 FileInputStream
 
 
+********************************
+Excel file hanlding
 
+Excel Read 
+********************************
+
+we need Apache POI jars to work with excels 
+
+org.apache.poi » poi
+
+org.apache.poi » poi-ooxml
+
+org.apache.poi » poi-scratchpad
+
+
+			.xls											.xlsx
+
+			HSSFWorkbook(C)			Workbook(I)				XSSFWorkbook(C)	
+								
+			HSSFSheet(C)			Sheet(I)				XSSFSheet(C)
+								
+			HSSFRow(C)				Row(I)					XSSFRow(C)
+								
+			HSSFCell(C)				Cell(I)					XSSFCell(C)
+			
+			
+FileInputStream class 
+
+			
+Methods in XSSFSheet :
+
+getLastRowNum():int  (note only for this method counting starts from 0)
+
+getPhysicalNumberOfRows():int 		
+
+getRow(int):Row 				
+								
+
+
+Methods in XSSFRow :
+
+getLastCellNum():int 
+
+getCell(int):XSSFCell
+
+*************************************
+Excel Write 
+
+case 1 : modifying an existing cell 
+
+case 2: creating a cell in existing row 
+
+case 3: creating a row and cell in it 
