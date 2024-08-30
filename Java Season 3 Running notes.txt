@@ -114,3 +114,52 @@ case 1 : modifying an existing cell
 case 2: creating a cell in existing row 
 
 case 3: creating a row and cell in it 
+
+*******************************************
+Properties file
+used to store key values 
+
+both key and value will be string
+
+
+new Properties();
+
+load(InputStream)
+
+getProperty(String):String 
+
+here paramter string is key 
+
+return type String is value 
+
+
+**************************************************************
+Map(I)
+
+HashMap (C) 
+
+
+Map<K, V>
+
+	Entry<K, V>
+	
+
+Methods in Map :
+
+put(K, V) : V 
+
+size():int 
+
+keySet():Set<K>
+
+values():Collection<V>
+
+entrySet():Set<Entry<K,V>>
+
+getKey():K
+getValue():V
+
+HashMap()
+HashMap(int)
+HashMap(int, float)
+HashMap(Map<? extends K, ? extends V>)
